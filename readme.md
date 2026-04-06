@@ -28,3 +28,5 @@ Luego no funcionaba el primer scanf porque le faltaba & al valor1.
 Otro error que vi es que no duplicaba el valor entonces lo que hice es pasarlo como un puntero y hacer puntero todo dentro de la función y también pasarle el dato como un puntero.
 Con todo eso corregido todo el código anda perfectamente.
 
+## Ejercicio 4
+El resultado del 2 y 3 es el mismo porque apuntamos a la direccion de memoria que copio el puntero de la variable y en el punto 4 se obtiene algo diferente ya que es la direccion de variable que tiene el puntero no el que copio.
